@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+:root {
+  --nav_color: #ffb703;
+  --body_color: #d2d7df;
+  --footer_color: grey;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-align: center;
+}
+button {
+  border: none;
+  background-color: var(--body_color);
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.nav-1:hover,
+.nav-2:hover,
+.nav-3:hover,
+a:hover {
+  transform: scale(1.13);
+  transition: 0.2s ease-out;
+}
+li {
+  list-style: none;
+  background-color: var(--body_color);
+  margin: 10px 5px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20%;
+  font-weight: bold;
+  height: 30px;
+}
+.logo {
+  background-color: var(--nav_color);
+  border: 0px;
+  color: black;
+  font-family: "Gochi Hand", cursive;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.logo:hover {
+  transform: translateX(10px) scale(1.2);
+  transition: 0.3s ease-out;
+  color: darkslategrey;
+}
+
+.navbar {
+  background-color: var(--nav_color);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3rem;
+}
+.logo1 {
+  height: 20%;
+  width: 20%;
+  transform: translateX(190%);
+}
+.logo1::after {
+  content: "BREW-TEA ";
+  position: relative;
+  font-family: "Gochi Hand", cursive;
+  font-size: 2.5rem;
+}
+.logoim1 {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.tea_garden {
+  padding: 10px;
+}
+
+.handplucking {
+  padding: 10px;
+}
+.teap {
+  width: 300px;
+  padding: 10px;
+}
+.END_PRODUCT {
+  transform: rotate(270deg);
+  width: 300px;
+}
+.footer_div {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+.logo_footer {
+  font-family: "Gochi Hand", cursive;
+  font-size: 1.7rem;
+  padding: 1px;
+}
+.fab {
+  padding-top: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 18px;
+  font-size: 26px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background-color: whitesmoke;
+  color: #3b5998;
+}
+.fa-instagram {
+  background-color: whitesmoke;
+  color: #f09433;
+}
+.fa-twitter {
+  background-color: whitesmoke;
+  color: skyblue;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in;
+}
+#get_in_touch {
+  font-size: 0.8rem;
+  padding: 10px;
+}

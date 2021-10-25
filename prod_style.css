@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+.product_container {
+  width: 100%;
+  display: flex;
+}
+main > div > div > img {
+  padding: 20px;
+  padding-left: 42px;
+}
+main > div > div > img:hover {
+  transform: scale(1.1);
+  border-radius: 40%;
+  transition: 0.3s ease-out;
+}
+main > div > div > button {
+  position: relative;
+  bottom: 50px;
+  left: 60px;
+  padding: 3px;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+  border-radius: 10%;
+}
+.fa-star,
+.fa-star-half-alt {
+  color: #293241;
+}
+.discount {
+  background-color: gold;
+  color: black;
+  font-size: 2rem;
+  width: 250px;
+  transform: translate(-42px, -250px) rotate(90deg);
+  border: 2px solid black;
+}
+.offer_price {
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    color: black;
+    font-size: 0.99rem;
+  }
+  25% {
+    color: red;
+    font-size: 1rem;
+  }
+  50% {
+    color: green;
+    font-size: 0.99rem;
+  }
+  75% {
+    color: grey;
+    font-size: 1rem;
+  }
+  100% {
+    color: blue;
+    font-size: 0.99rem;
+  }
+}
+.discount_button {
+  transform: translate(0, -40px);
+}
